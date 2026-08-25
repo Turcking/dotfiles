@@ -1,0 +1,53 @@
+configuration {
+	font: "sans-serif 12";
+	show-icons: true;
+
+	drun {
+		display-name: "";
+	}
+}
+
+* {
+	spacing: 0;
+	text-color: white;
+	background-color: transparent;
+}
+
+listview {
+	background-color: #2e344080;
+}
+
+inputbar {
+	background-color: #3b425280;
+}
+
+element-text selected {
+	text-color: yellow;
+}
+
+window {
+	width: 35em;
+	orientation: horizontal;
+}
+
+entry {
+	padding: 0.6em 0.1em;
+}
+
+prompt {
+	vertical-align: 0.5;
+	padding: 0.6em;
+}
+
+listview {
+	lines: 8;
+}
+
+element-icon {
+	size: 1em;
+	padding: 0.5em 0em 0.5em 0.5em;
+}
+
+element-text {
+	padding: 0.5em 0.5em;
+}
