@@ -43,7 +43,7 @@ help:
 	@printf "\n"
 
 check:
-	@if which vim >> /dev/null; then \
+	@if command -v vim >> /dev/null; then \
 		printf "%b %s\n" $(INFO) "Vim found."; \
 	else \
 		printf "%b %s\n" $(ERROR) "Vim not found."; \

@@ -43,7 +43,7 @@ help:
 	@printf "\n"
 
 check:
-	@if which polybar >> /dev/null; then \
+	@if command -v polybar >> /dev/null; then \
 		printf "%b %s\n" $(INFO) "Polybar found."; \
 	else \
 		printf "%b %s\n" $(ERROR) "Polybar not found."; \

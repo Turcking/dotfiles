@@ -43,7 +43,7 @@ help:
 	@printf "\n"
 
 check:
-	@if which picom >> /dev/null; then \
+	@if command -v picom >> /dev/null; then \
 		printf "%b %s\n" $(INFO) "Picom found."; \
 	else \
 		printf "%b %s\n" $(ERROR) "Picom not found."; \

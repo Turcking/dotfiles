@@ -43,7 +43,7 @@ help:
 	@printf "\n"
 
 check:
-	@if which rofi >> /dev/null; then \
+	@if command -v rofi >> /dev/null; then \
 		printf "%b %s\n" $(INFO) "Rofi found."; \
 	else \
 		printf "%b %s\n" $(ERROR) "Rofi not found."; \

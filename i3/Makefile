@@ -43,7 +43,7 @@ help:
 	@printf "\n"
 
 check:
-	@if which i3 >> /dev/null; then \
+	@if command -v i3 >> /dev/null; then \
 		printf "%b %s\n" $(INFO) "I3 found."; \
 	else \
 		printf "%b %s\n" $(ERROR) "I3 not found."; \
