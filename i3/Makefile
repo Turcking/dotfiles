@@ -38,7 +38,7 @@ help:
 	@printf "\n"
 	@printf "\t%b%s%b%s\n" $(HIGHLIGHT) "help" $(RESUME) ": print this message."
 	@printf "\t%b%s%b%s\n" $(HIGHLIGHT) "check" $(RESUME) ": check dependency exists (does not block the install goal)."
-	@printf "\t%b%s%b%s\n" $(HIGHLIGHT) "install" $(RESUME) ": install to \$$(DESTINATION_DIRECTORY) \(adopts existing files\)."
+	@printf "\t%b%s%b%s\n" $(HIGHLIGHT) "install" $(RESUME) ": install to \$$(DESTINATION_DIRECTORY) (adopts existing files)."
 	@printf "\t%b%s%b%s\n" $(HIGHLIGHT) "uninstall" $(RESUME) ": uninstall from \$$(DESTINATION_DIRECTORY)."
 	@printf "\n"
 
